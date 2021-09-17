@@ -1,4 +1,6 @@
-# Frontend
+# Angular frontend for Quarkus API
+
+Quarkus API code is available at the separate repo at `https://github.com/mmartofel/quarkus-2.2-API`
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
 
