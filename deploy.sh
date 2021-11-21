@@ -7,7 +7,7 @@ oc new-app angular-frontend
 oc expose service/angular-frontend
 
 oc label deployment/angular-frontend app.kubernetes.io/part-of=ANGULAR_DEMO_APP --overwrite
-oc label deployment/angular-frontend app.openshift.io/runtime=quarkus --overwrite
+oc label deployment/angular-frontend app.openshift.io/runtime=angularjs --overwrite
 
 echo
 echo "Try now to hit your angular frontend at:"
