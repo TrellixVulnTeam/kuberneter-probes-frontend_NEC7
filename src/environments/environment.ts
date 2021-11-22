@@ -4,10 +4,9 @@
 
 export const environment = {
   production: false,
-  backendURL: 'http://backend:8080',
-  userListURL: 'http://backend:8080/person/list',
-  userAddURL:  'http://backend:8080/person/add'
-
+  backendURL:  'http://backend-angular.apps.ocp4.cloud.aosgs.xyz',
+  userListURL: 'http://backend-angular.apps.ocp4.cloud.aosgs.xyz/person/list',
+  userAddURL:  'http://backend-angular.apps.ocp4.cloud.aosgs.xyz/person/add'
 };
 
 /*

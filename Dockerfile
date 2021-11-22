@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8/nodejs-14:1-51
+FROM registry.access.redhat.com/ubi8/nodejs-14:latest
 
 RUN npm install -g @angular/cli
 COPY . .
