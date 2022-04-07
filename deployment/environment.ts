@@ -1,7 +1,7 @@
 export const environment = {
   production: false,
-  backendURL:  'http://backend-angular.apps.ocp4.cloud.aosgs.xyz',
-  userListURL: 'http://backend-angular.apps.ocp4.cloud.aosgs.xyz/person/list',
-  userAddURL:  'http://backend-angular.apps.ocp4.cloud.aosgs.xyz/person/add',
+  backendURL:  'http://probes-project01.apps.ocp4-v2x7r-ipi.azure.opentlc.com',
+  userListURL: 'http://probes-project01.apps.ocp4-v2x7r-ipi.azure.opentlc.com/api/person/list',
+  userAddURL:  'http://probes-project01.apps.ocp4-v2x7r-ipi.azure.opentlc.com/api/person/add',
   addedFromConfigMap: 'yes'
 };
