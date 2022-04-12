@@ -4,9 +4,9 @@
 
 export const environment = {
   production: false,
-  backendURL:  'http://probes',
-  userListURL: 'http://probes/api/person/all',
-  userAddURL:  'http://probes/api/person/add'
+  backendURL:  'http://probes:8080',
+  userListURL: 'http://probes:8080/api/person/all',
+  userAddURL:  'http://probes:8080/api/person/add'
 };
 
 /*
