@@ -4,9 +4,9 @@
 
 export const environment = {
   production: false,
-  backendURL:  'http://probes:8080',
-  userListURL: 'http://probes:8080/api/person/all',
-  userAddURL:  'http://probes:8080/api/person/add'
+  backendURL:  'http://probes-project01.apps.ul134pgl.eastus.aroapp.io',
+  userListURL: 'http://probes-project01.apps.ul134pgl.eastus.aroapp.io/api/person/all',
+  userAddURL:  'http://probes-project01.apps.ul134pgl.eastus.aroapp.io/api/person/add'
 };
 
 /*
