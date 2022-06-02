@@ -1,19 +1,7 @@
-// This file can be replaced during build by using the `fileReplacements` array.
-// `ng build` replaces `environment.ts` with `environment.prod.ts`.
-// The list of file replacements can be found in `angular.json`.
-
-export const environment = {
-  production: false,
-  backendURL:  'http://probes-probes.apps.ul134pgl.eastus.aroapp.io',
-  userListURL: 'http://probes-probes.apps.ul134pgl.eastus.aroapp.io/api/person/all',
-  userAddURL:  'http://probes-probes.apps.ul134pgl.eastus.aroapp.io/api/person/add'
-};
-
-/*
- * For easier debugging in development mode, you can import the following file
- * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
- *
- * This import should be commented out in production mode because it will have a negative impact
- * on performance if an error is thrown.
- */
-// import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
+var apiRoute:string = 'http://probes-project01.apps.ipq49uiq.eastus.aroapp.io';
+      export const environment = {
+        production: false,
+        backendURL:  apiRoute,
+        userListURL: apiRoute + '/api/person/all',
+        userAddURL:  apiRoute + '/api/person/add'
+      };
